@@ -2,6 +2,8 @@
 
 In this example, we are going to deploy a sample Nginx application in EKS. This guide will walk you through the steps to create an EKS cluster, configure it for Fargate, deploy the Nginx application, and access it via an Application Load Balancer (ALB).
 
+![alt text](image.png)
+
 ## Creating an EKS Cluster
 
 Most organizations prefer using the `eksctl` command-line tool to create an EKS cluster instead of using the AWS Management Console. Below is an example of how to create a cluster using `eksctl`:
